@@ -1,0 +1,10 @@
+{
+  "name": "jaxsalesforcedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "David Fekke <david@fekke.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsforce": "^1.7.1"
+  }
+}
