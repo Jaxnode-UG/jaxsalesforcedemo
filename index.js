@@ -7,7 +7,7 @@ var conn = new jsforce.Connection({
 });
 conn.login(process.env.sf_user, process.env.sf_password, function(err, res) {
     if (err) { return console.error(err); }
-    console.log(conn.accessToken);
+    //console.log(conn.accessToken);
     console.log(conn.instanceUrl);
     conn.query('SELECT Id, Name FROM Account', function(err, res) {
         if (err) { return console.error(err); }
